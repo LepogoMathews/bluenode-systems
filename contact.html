@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="Contact BlueNode Systems for IT consultations, quotes, or support. Get in touch via form, email, or WhatsApp." />
+    <meta name="keywords"
+      content="contact BlueNode Systems, IT support quote, get in touch" />
+    <meta property="og:title" content="Contact Us – BlueNode Systems" />
+    <meta property="og:description"
+      content="Reach out for professional IT services and solutions." />
+    <meta property="og:image" content="/assets/images/hero.svg" />
+    <meta property="og:url"
+      content="https://bluenodesystems.com/contact.html" />
+    <meta property="og:type" content="website" />
+
+    <title>Contact Us – BlueNode Systems</title>
+    <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script defer src="/assets/js/main.js"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BlueNode Systems",
+    "url": "https://bluenodesystems.com",
+    "logo": "https://bluenodesystems.com/assets/images/logo.svg",
+    "description": "Professional managed IT services, web & app development, cloud solutions and cybersecurity.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "0605697174",
+      "contactType": "Customer Service",
+      "email": "hello@bluenodesystems.com"
+    }
+  }
+  </script>
+  </head>
+
+  <body>
+    <!-- Navbar (same as index, but active on Contact) -->
+    <header class="header" id="header">
+      <div class="container header__container">
+        <a href="/" class="logo">
+          <img src="/assets/images/logo.svg" alt="BlueNode Systems Logo" />
+          <span>BlueNode Systems</span>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="/" class="nav__link">Home</a></li>
+            <li><a href="/services.html" class="nav__link">Services</a></li>
+            <li><a href="/about.html" class="nav__link">About</a></li>
+            <li><a href="/contact.html" class="nav__link active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" aria-label="Toggle dark mode"
+          id="themeToggle">
+          <svg class="sun" viewBox="0 0 24 24">
+            <path
+              d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2m-10-9H2m20 0h-2m-2.636-7.364l-1.414 1.414m-12.728 0L4.808 6.222M5.636 18.364l1.414-1.414m12.728 0l1.414 1.414" />
+          </svg>
+          <svg class="moon" viewBox="0 0 24 24">
+            <path
+              d="M21.64 13a1 1 0 00-1.05-.14 8.05 8.05 0 01-3.37.73 8.15 8.15 0 01-8.14-8.15 8.06 8.06 0 01.73-3.37 1 1 0 00-.64-1.47 10.54 10.54 0 00-5.77 15.6 10.5 10.5 0 0015.6-5.77z" />
+          </svg>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Small -->
+    <section class="hero hero--small">
+      <div class="container">
+        <h1 class="hero__title">Get In Touch</h1>
+        <p class="hero__subtitle">Ready to discuss your IT needs? We're here to
+          help.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section contact-form">
+      <div class="container">
+        <form class="glass-card contact__form reveal" action="/submit"
+          method="POST">
+          <h2>Send Us a Message</h2>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="section contact-info">
+      <div class="container grid contact__grid">
+        <div class="glass-card reveal">
+          <h3>Email Us</h3>
+          <p><a
+              href="mailto:hello@bluenodesystems.com">hello@bluenodesystems.com</a>
+          </p>
+        </div>
+        <div class="glass-card reveal">
+          <h3>Phone</h3>
+          <p>0605697174</p>
+        </div>
+        <div class="glass-card reveal">
+          <h3>Location</h3>
+          <p>[Your City], USA</p>
+        </div>
+        <div class="glass-card reveal whatsapp-btn">
+          <a href="https://wa.me/0721012874" target="_blank"
+            class="btn btn--primary">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maps Placeholder -->
+    <section class="section maps">
+      <div class="container">
+        <div class="glass-card reveal">
+          <h2>Our Location</h2>
+          <div id="map-placeholder"
+            style="height: 300px; background: rgba(255,255,255,0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+            <p>Embedded Google Maps will go here. <br><small>Search "BlueNode
+                Systems [Your City]" for directions.</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (same as index) -->
+    <!-- Copy footer from index.html -->
+  </body>
+
+</html>

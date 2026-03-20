@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="Full range of IT services: Managed IT Support, Web & App Development, Cybersecurity, Cloud Solutions and Hardware Maintenance from BlueNode Systems." />
+    <meta name="keywords"
+      content="managed IT, web development, cybersecurity, cloud services, hardware maintenance" />
+    <meta property="og:title" content="Services – BlueNode Systems" />
+    <meta property="og:description"
+      content="Comprehensive IT solutions including support, development, security, and cloud migration." />
+    <meta property="og:image" content="/assets/images/hero.svg" />
+    <meta property="og:url"
+      content="https://bluenodesystems.com/services.html" />
+    <meta property="og:type" content="website" />
+
+    <title>Our Services – BlueNode Systems</title>
+    <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script defer src="/assets/js/main.js"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BlueNode Systems",
+    "url": "https://bluenodesystems.com",
+    "logo": "https://bluenodesystems.com/assets/images/logo.svg",
+    "description": "Professional managed IT services, web & app development, cloud solutions and cybersecurity.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "0605697174",
+      "contactType": "Customer Service",
+      "email": "hello@bluenodesystems.com"
+    }
+  }
+  </script>
+  </head>
+
+  <body>
+    <!-- Navbar (same as index, but active on Services) -->
+    <header class="header" id="header">
+      <div class="container header__container">
+        <a href="/" class="logo">
+          <img src="/assets/images/logo.svg" alt="BlueNode Systems Logo" />
+          <span>BlueNode Systems</span>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="/" class="nav__link">Home</a></li>
+            <li><a href="/services.html" class="nav__link active">Services</a>
+            </li>
+            <li><a href="/about.html" class="nav__link">About</a></li>
+            <li><a href="/contact.html" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" aria-label="Toggle dark mode"
+          id="themeToggle">
+          <svg class="sun" viewBox="0 0 24 24">
+            <path
+              d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2m-10-9H2m20 0h-2m-2.636-7.364l-1.414 1.414m-12.728 0L4.808 6.222M5.636 18.364l1.414-1.414m12.728 0l1.414 1.414" />
+          </svg>
+          <svg class="moon" viewBox="0 0 24 24">
+            <path
+              d="M21.64 13a1 1 0 00-1.05-.14 8.05 8.05 0 01-3.37.73 8.15 8.15 0 01-8.14-8.15 8.06 8.06 0 01.73-3.37 1 1 0 00-.64-1.47 10.54 10.54 0 00-5.77 15.6 10.5 10.5 0 0015.6-5.77z" />
+          </svg>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Small -->
+    <section class="hero hero--small">
+      <div class="container">
+        <h1 class="hero__title">Our Services</h1>
+        <p class="hero__subtitle">End-to-end IT solutions tailored to your
+          business needs.</p>
+      </div>
+    </section>
+
+    <!-- Services Full -->
+    <section class="section services-full">
+      <div class="container">
+        <!-- Managed IT -->
+        <div class="service reveal" id="managed-it">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2v-4h2v4zm4 0h-2v-7h2v7z" />
+            </svg>
+          </div>
+          <div class="service__content">
+            <h2>Managed IT Support</h2>
+            <p>Proactive monitoring, unlimited helpdesk, patch management and
+              on-site support when needed.</p>
+            <ul>
+              <li>24/7 network & server monitoring</li>
+              <li>Unlimited remote & on-site support</li>
+              <li>Backup & disaster recovery</li>
+              <li>Antivirus & endpoint protection</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Web Design & App Development -->
+        <div class="service reveal" id="web-dev">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5.5 14H12v-2h2.5v2zm3.5-4H6V8h12v6z" />
+            </svg>
+          </div>
+          <div class="service__content">
+            <h2>Web Design & App Development</h2>
+            <p>Custom websites, progressive web apps, and mobile applications
+              built with modern frameworks.</p>
+            <ul>
+              <li>Responsive web design & e-commerce</li>
+              <li>iOS & Android app development</li>
+              <li>API integration & backend services</li>
+              <li>UI/UX design & prototyping</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Network Setup & Security -->
+        <div class="service reveal" id="network-security">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zM11 17h2v-6h-2v6zm1-15V3l-1-.5-1 .5V2h2zm0 18V21l-1-.5-1 .5v1h2z" />
+            </svg>
+          </div>
+          <div class="service__content">
+            <h2>Network Setup & Security</h2>
+            <p>Secure network architecture, firewall configuration, and
+              vulnerability assessments.</p>
+            <ul>
+              <li>LAN/WAN setup & optimization</li>
+              <li>Firewall & VPN implementation</li>
+              <li>Cybersecurity audits & penetration testing</li>
+              <li>Data encryption & compliance</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cloud & Server Solutions -->
+        <div class="service reveal" id="cloud">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M19.35 10.04A7.49 7.49 0 0012 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 000 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
+            </svg>
+          </div>
+          <div class="service__content">
+            <h2>Cloud & Server Solutions</h2>
+            <p>Migration to scalable cloud environments with hybrid and private
+              options.</p>
+            <ul>
+              <li>AWS, Azure & Google Cloud migration</li>
+              <li>Server hosting & virtualization</li>
+              <li>Scalable storage & backup</li>
+              <li>Cloud security & monitoring</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Hardware & Software Maintenance -->
+        <div class="service reveal" id="maintenance">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 00-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM12 14c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+            </svg>
+          </div>
+          <div class="service__content">
+            <h2>Hardware & Software Maintenance</h2>
+            <p>Regular upkeep, upgrades, and troubleshooting for all your tech
+              assets.</p>
+            <ul>
+              <li>Hardware repair & upgrades</li>
+              <li>Software licensing & updates</li>
+              <li>Inventory management</li>
+              <li>Remote diagnostics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (same as index) -->
+    <footer class="footer">
+      <!-- Copy footer from index.html -->
+      <div class="container footer__container">
+        <div class="footer__brand">
+          <img src="/assets/images/logo.svg" alt="BlueNode Systems" />
+          <p>Professional IT Solutions You Can Trust</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p><a
+              href="mailto:hello@bluenodesystems.com">hello@bluenodesystems.com</a>
+          </p>
+          <p>0605697174</p>
+          <a href="https://wa.me/0721012874" target="_blank" class="whatsapp">
+            <svg viewBox="0 0 24 24" style="width:16px;height:16px;">
+              <path fill="currentColor"
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.886 3.488" />
+            </svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 BlueNode Systems. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
